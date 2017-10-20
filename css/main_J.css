@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(68,172,207);
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.otherBox{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(250, 131, 102);
+    position: relative;
+    top: 110px;
+    bottom:100px;
+    right: -750px; 
+    border-top: 8px rgb(249, 91, 52) solid;
+}
+.otherBox #text{
+    padding: 20px;
+    color: white;
+}
+
+header nav {
+    width: 70%;
+    height: 9.5%;
+    position: relative;
+    left: 13%;
+    background-color: rgb(183,216,75);
+    margin-bottom: 0;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(183,216,75);
+}
+header nav ul li{
+    float: left;
+    padding: 0px;
+}
+header nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    border-right: 1px rgb(145, 171, 59) solid;
+}
+header nav ul li a:hover{
+    background-color: rgb(145,171,59);
+}
+.contentOne  {
+    width: 70%;
+    position: relative;
+    left: 13%;
+    top: -13;
+    background-color: white;
+}
+.contentOne p{
+    position: relative;
+    top: -455px;
+    margin-right:250px; 
+    margin-left: 30px;
+}
+footer{
+    width: 59.3%;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    left: 13%;
+    right: 0;
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(249,91,52);
+    padding-left:140px; 
+}
+.copy{
+    position: relative;
+    right: 120px;
+    top:6px;
+    
+    
+}
